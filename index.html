@@ -8,10 +8,7 @@
 </head>
 <body>
     <br/>
-    <h3>Contact me</h3>
-    <a href="">
-        <img src="fc.jpg" width="80" height="80" alt="">
-    </a>
+    <h3>Contact Form</h3>
     <form action="processform.php" method="GET">
         <p>
             <label for="first_name">First Name</label><br/>
@@ -31,8 +28,8 @@
         </p>
         <p>
             <label for="gender">Gender</label><br/>
-            <input type="radio" name="gender">Female
-            <input type="radio" name="gender">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
         </p>
         <p>
             <label for="department">Department</label><br/>
@@ -49,7 +46,7 @@
             <textarea name="message"></textarea>
         </p>
         <p>
-            <input type="checkbox" name="terms" required>By Checking this box you agree to our terms and condition
+            <input type="checkbox" name="terms" value="Agreed to terms and condition" required>By Checking this box you agree to our terms and condition
         </p>
         
         <button type="submit">Send Message</button>
