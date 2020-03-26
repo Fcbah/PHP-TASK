@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP Task 1</title>
+</head>
+<body>
+    <br/>
+    <h3>Contact me</h3>
+    <a href="">
+        <img src="fc.jpg" width="80" height="80" alt="">
+    </a>
+    <form action="processform.php" method="GET">
+        <p>
+            <label for="first_name">First Name</label><br/>
+            <input type="text" name="first_name" placeholder="Enter your first name"/>
+        </p>
+        <p>
+            <label for="last_name">Last Name</label><br/>
+            <input type="text" name="last_name" placeholder="Enter your Last name"/>
+        </p>
+        <p>
+            <label for="email">Email</label><br/>
+            <input type="email" name="email" placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="phone_number">Phone Number</label><br/>
+            <input type="number" name="phone_number" placeholder="Enter Phone Number"/>
+        </p>
+        <p>
+            <label for="gender">Gender</label><br/>
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Male
+        </p>
+        <p>
+            <label for="department">Department</label><br/>
+            <select name="department">
+                <option>Select Department</option>
+                <option>HR</option>
+                <option>Marketing</option>
+                <option>Board</option>
+                <option>Kitchen</option>
+            </select>
+        </p>
+        <p>
+            <label for="email">Your Message</label><br/>
+            <textarea name="message"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="terms" required>By Checking this box you agree to our terms and condition
+        </p>
+        
+        <button type="submit">Send Message</button>
+
+    </form>
+    <marquee behavior="" direction="">This is the home page of PHP Task 1
+
+</body>
+</html>
